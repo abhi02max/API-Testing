@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Dell Lap",
+    "price": 90000,
+    "description": "Dell Inspiron",
+    "image": "httsps://fakestoreapi.com",
+    "category": "Electronics"
+  },
+  {
+    "title": "Apple iPad",
+    "price": 150000,
+    "description": "Gen 3",
+    "image": "httsps://fakestoreapi.com",
+    "category": "Electronics"
+  },
+  {
+    "title": "Nike Air Force",
+    "price": 10000,
+    "description": "Basketball Shoes",
+    "image": "httsps://fakestoreapi.com",
+    "category": "Fashion"
+  },
+  {
+    "title": "Dell Lap",
+    "price": 90000,
+    "description": "Dell Inspiron",
+    "image": "httsps://fakestoreapi.com",
+    "category": "Electronics"
+  },
+  {
+    "title": "Apple iPad",
+    "price": 150000,
+    "description": "Gen 3",
+    "image": "httsps://fakestoreapi.com",
+    "category": "Electronics"
+  },
+  {
+    "title": "Nike Air Force",
+    "price": 10000,
+    "description": "Basketball Shoes",
+    "image": "httsps://fakestoreapi.com",
+    "category": "Fashion"
+  }
+]

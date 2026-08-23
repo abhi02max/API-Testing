@@ -1,0 +1,450 @@
+{
+  "info": {
+    "_postman_id": "225a2f7a-51bf-4754-a194-d97698f13ec6",
+    "name": "VNR_API_TESTING",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "56551108",
+    "_collection_link": "https://go.postman.co/collection/56551108-225a2f7a-51bf-4754-a194-d97698f13ec6?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "API TESTING",
+      "item": [
+        {
+          "name": "GET Request Methods",
+          "item": [
+            {
+              "name": "AutomationExercise - GET Product List",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "AutomationExercise - GET All Brands List",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "AutomationExercise - GET User Account Detail by email",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "Dummy Rest API - GET All Employees",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "Dummy Rest API - GET All Employees By ID",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "PostMan - GET Hello World",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "FakeStore - GET Products",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "POST Request Methods",
+          "item": [
+            {
+              "name": "FakeStore - POST Prodcuts",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"id\": 0,\r\n  \"title\": \"API Testing\",\r\n  \"price\": 12345,\r\n  \"description\": \"Postman API\",\r\n  \"category\": \"Automation Testing\",\r\n  \"image\": \"https://fakestoreapi.com\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "https://fakestoreapi.com/products",
+                  "protocol": "https",
+                  "host": [
+                    "fakestoreapi",
+                    "com"
+                  ],
+                  "path": [
+                    "products"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "AutomationExercise - POST All Products",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "https://automationexercise.com/api/productsList",
+                  "protocol": "https",
+                  "host": [
+                    "automationexercise",
+                    "com"
+                  ],
+                  "path": [
+                    "api",
+                    "productsList"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Dummy - Post Method",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"name\": \"charith\",\r\n    \"salary\": \"1234567\",\r\n    \"age\": \"21\"\r\n}\r\n",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "https://dummy.restapiexample.com/api/v1/create",
+                  "protocol": "https",
+                  "host": [
+                    "dummy",
+                    "restapiexample",
+                    "com"
+                  ],
+                  "path": [
+                    "api",
+                    "v1",
+                    "create"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "REQBIN - POST",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"Id\": 78912,\r\n    \"Customer\": \"Jason Sweet\",\r\n    \"Quantity\": 1,\r\n    \"Price\": 18.00\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "https://reqbin.com/echo/post/json",
+                  "protocol": "https",
+                  "host": [
+                    "reqbin",
+                    "com"
+                  ],
+                  "path": [
+                    "echo",
+                    "post",
+                    "json"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "FakeStore - POST Carts",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"id\": 0,\r\n  \"userId\": 0,\r\n  \"products\": [\r\n    {\r\n      \"id\": 0,\r\n      \"title\": \"mouse\",\r\n      \"price\": 1000,\r\n      \"description\": \"white\",\r\n      \"category\": \"transparent\",\r\n      \"image\": \"http://fakestoreapi.com\"\r\n    }\r\n  ]\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "https://fakestoreapi.com/carts",
+                  "protocol": "https",
+                  "host": [
+                    "fakestoreapi",
+                    "com"
+                  ],
+                  "path": [
+                    "carts"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "PUT Request Methods",
+          "item": [
+            {
+              "name": "FakeStore - PUT Products",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"id\": 0,\r\n  \"title\": \"API Testing Postman\",\r\n  \"price\": 12345,\r\n  \"description\": \"Postman API\",\r\n  \"category\": \"Automation Testing\",\r\n  \"image\": \"https://fakestoreapi.com\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "https://fakestoreapi.com/products/{id}",
+                  "protocol": "https",
+                  "host": [
+                    "fakestoreapi",
+                    "com"
+                  ],
+                  "path": [
+                    "products",
+                    "{id}"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "AutomationExercise - PUT Update User Account",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"name\": \"sai\",\r\n  \"email\": \"sai@gmail.com\",\r\n  \"password\": \"Test111111\",\r\n  \"title\": \"Mr\",\r\n  \"birth_date\": \"15\",\r\n  \"birth_month\": \"6\",\r\n  \"birth_year\": \"2000\",\r\n  \"firstname\": \"sai\",\r\n  \"lastname\": \"s\",\r\n  \"company\": \"Test Company\",\r\n  \"address1\": \"123 Ramky\",\r\n  \"address2\": \"Apartment 18-3\",\r\n  \"country\": \"India\",\r\n  \"zipcode\": \"500001\",\r\n  \"state\": \"Telangana\",\r\n  \"city\": \"Hyderabad\",\r\n  \"mobile_number\": \"9876543210\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "https://automationexercise.com/api/updateAccount",
+                  "protocol": "https",
+                  "host": [
+                    "automationexercise",
+                    "com"
+                  ],
+                  "path": [
+                    "api",
+                    "updateAccount"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "DummyAPI - PUT Update Employee",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "url": {
+                  "raw": "https://dummy.restapiexample.com/api/v1/update/21",
+                  "protocol": "https",
+                  "host": [
+                    "dummy",
+                    "restapiexample",
+                    "com"
+                  ],
+                  "path": [
+                    "api",
+                    "v1",
+                    "update",
+                    "21"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "REQBIN - PUT Request Method",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"Id\": 78912,\r\n    \"Customer\": \"Cherry\",\r\n    \"Quantity\": 1,\r\n    \"Price\": 18.00\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "https://reqbin.com/echo/put/json",
+                  "protocol": "https",
+                  "host": [
+                    "reqbin",
+                    "com"
+                  ],
+                  "path": [
+                    "echo",
+                    "put",
+                    "json"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "DELETE Request Methods",
+          "item": [
+            {
+              "name": "FakeStoreAPI - DELETE Request Method",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"id\": 0,\r\n  \"title\": \"API Testing\",\r\n  \"price\": 12345,\r\n  \"description\": \"Postman API\",\r\n  \"category\": \"Automation Testing\",\r\n  \"image\": \"https://fakestoreapi.com\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "https://fakestoreapi.com/carts/{id}",
+                  "protocol": "https",
+                  "host": [
+                    "fakestoreapi",
+                    "com"
+                  ],
+                  "path": [
+                    "carts",
+                    "{id}"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "DummyRest - DELETE Request Method",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "https://dummy.restapiexample.com/api/v1/delete/2",
+                  "protocol": "https",
+                  "host": [
+                    "dummy",
+                    "restapiexample",
+                    "com"
+                  ],
+                  "path": [
+                    "api",
+                    "v1",
+                    "delete",
+                    "2"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "AutomationExercise - DELETE Request Method",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "https://automationexercise.com/api/deleteAccount",
+                  "protocol": "https",
+                  "host": [
+                    "automationexercise",
+                    "com"
+                  ],
+                  "path": [
+                    "api",
+                    "deleteAccount"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "FakeStoreAPI - DELETE Cart Request Method",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"id\": 0,\r\n  \"userId\": 0,\r\n  \"products\": [\r\n    {\r\n      \"id\": 0,\r\n      \"title\": \"mouse\",\r\n      \"price\": 1000,\r\n      \"description\": \"white\",\r\n      \"category\": \"transparent\",\r\n      \"image\": \"http://fakestoreapi.com\"\r\n    }\r\n  ]\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "https://fakestoreapi.com/carts/0",
+                  "protocol": "https",
+                  "host": [
+                    "fakestoreapi",
+                    "com"
+                  ],
+                  "path": [
+                    "carts",
+                    "0"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
